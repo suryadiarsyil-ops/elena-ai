@@ -22,7 +22,7 @@ pkg update && pkg upgrade
 pkg install python git
 
 # Clone repository
-git clone https://github.com/username/elena-ai.git
+git clone https://github.com/suryadiarsyil-ops/Elena-AI.git
 cd elena-ai
 
 # Install dependencies
