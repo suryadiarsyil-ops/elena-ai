@@ -1,21 +1,28 @@
-# Python
+# Buat file .gitignore
+echo "# Python
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
+*.pyc
+*.pyo
+*.pyd
 .Python
 env/
 venv/
-.venv/
-.env
 
-# Config files
+# API Keys
 *.key
-*.db
+api_key.txt
+
+# Logs
 *.log
+*.db
 
 # IDE
 .vscode/
 .idea/
 *.swp
-*.swo
+" > .gitignore
+
+# Upload ke GitHub
+git add .gitignore
+git commit -m "Add .gitignore for security"
+git push
