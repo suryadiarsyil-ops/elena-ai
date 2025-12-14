@@ -23,7 +23,7 @@ if [ -d "elena-ai" ]; then
     git pull
 else
     echo "📥 Cloning repository..."
-    git clone https://github.com/suryadiarsyil-ops/Elena-AI.git
+    git clone https://github.com/suryadiarsyil-ops/elena-ai.git
     cd elena-ai
 fi
 
